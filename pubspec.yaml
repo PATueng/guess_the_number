@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_fonts: ^2.1.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -46,6 +47,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+     - assets/images/ #นำเข้ารูปทั้งหมดในโฟลเดอร์ images
      - assets/images/cat.png
      - assets/images/op.png
      - assets/images/bg.jpg
@@ -53,6 +55,7 @@ flutter:
      - assets/images/flag_ireland.png
      - assets/images/flag_thailand.png
      - assets/images/logo.png
+     - assets/images/logo_number.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

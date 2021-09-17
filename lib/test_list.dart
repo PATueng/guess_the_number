@@ -50,6 +50,7 @@ void main() {
   });
   List list3 = list.map((i) { return { 'data' : i} ; }).toList(); // ทำเป็น Map
   print(list3);
+
   /*list.map((e) {
     return e+10;
   }).toList();*/
